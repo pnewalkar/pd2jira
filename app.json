@@ -8,25 +8,25 @@
   ],
   "env": {
     "JIRA_USERNAME": {
-      "description": "The username of the JIRA user that will update the JIRA ticket."
+      "description": "Parag.Newalkar@contracted.pmi.com"
     },
     "JIRA_PASSWORD": {
-      "description": "The password for your JIRA user."
+      "description": "Alaskacity1234"
     },
     "JIRA_URL": {
-      "description": "The URL to access your JIRA installation (e.g. https://mycompany.com OR https://mycompany.atlassian.net)."
+      "description": "https://jira.dev-pmidce.com"
     },
     "JIRA_PROJECT": {
-      "description": "The project that you would like the ticket created in JIRA.  This field is the prefix for the project (e.g. 'SUP')."
+      "description": "Digital (DIGITAL)"
     },
     "JIRA_ISSUE_TYPE": {
-      "description": "The type of issue that you'd like created within JIRA (e.g. Bug, Deliverable, etc...)."
+      "description": "Request for Info"
     },
     "PAGERDUTY_API_TOKEN": {
-      "description": "Your 20-character alphanumeric PagerDuty API Access token."
+      "description": "v4tU2yZBjA4Ny-e8KPYs"
     },
     "PAGERDUTY_SUBDOMAIN": {
-      "description": "The name of your PagerDuty subdomain, as it appears in the URL."
+      "description": "bi-webhooks-mytesting.pagerduty.com"
     },
     "WEB_CONCURRENCY": {
       "description": "Please don't change this unless you know what you are doing. This prevents duplicate Jira issues from being created.",
