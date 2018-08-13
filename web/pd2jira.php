@@ -1,16 +1,16 @@
 <?php
 $messages = json_decode(file_get_contents("php://input"));
 
-$jira_url = getenv('JIRA_URL');
+$jira_url = getenv('https://jira.dev-pmidce.com/');
 if (substr($jira_url, strlen($jira_url)-1, 1) == "/") {
   $jira_url = substr($jira_url, 0, strlen($jira_url)-1);
 }
-$jira_username = getenv('JIRA_USERNAME');
-$jira_password = getenv('JIRA_PASSWORD');
-$jira_project = getenv('JIRA_PROJECT');
-$jira_issue_type = getenv('JIRA_ISSUE_TYPE');
-$pd_subdomain = getenv('PAGERDUTY_SUBDOMAIN');
-$pd_api_token = getenv('PAGERDUTY_API_TOKEN');
+$jira_username = getenv('Parag.Newalkar@contracted.pmi.com');
+$jira_password = getenv('Alaskacity1234');
+$jira_project = getenv('Digita');
+$jira_issue_type = getenv('Request for Info');
+$pd_subdomain = getenv('bi-webhooks-mytesting.pagerduty.com');
+$pd_api_token = getenv('v4tU2yZBjA4Ny-e8KPYs');
 
 if ($messages) foreach ($messages->messages as $webhook) {
   $webhook_type = $webhook->type;
